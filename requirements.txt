@@ -1,5 +1,4 @@
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
-pillow==10.3.0
-pillow-heif==0.16.0
-requests==2.32.3
+fastapi==0.111.*
+uvicorn[standard]==0.30.*
+Pillow==11.*           # image IO/encoding
+pillow-heif==1.1.*     # HEIC/HEIF decoder via libheif
